@@ -23,10 +23,24 @@ In this challenge, you are to build a Smurfs village utilizing context or Redux 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What problem does the context API help solve?
+
+  - Context API helps simplify state management.  It aims to solve difficulties that occur when applications scale and props need to be passed into many components.
+
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+
+  - In Redux, actions are pieces of information that contain a type and some data and are dispatched to a reducer.  Reducers accept some state and action and return the next state.  The store is an object that holds the state for the application, it is known as the ‘single source of truth’ because of this.
+
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+
+  -Component state is typically stored locally within a component and is not accessible unless its passed down to its children as props.  Application state is global and can be accessed by a component anywhere as long as it’s wired to it.  Application state might be better to use in large, complex apps.
+
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
+
+  - Redux-Thunk is a middleware for Redux that allows us to handle asynchronous operations such as API calls inside action creators.
+
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
+
+  - I like Context API because it was a little easier for me to understand than Redux. That being said, I have a feeling that as I get more comfortable with Redux and all of its features, it may become my favorite.
 
 ## Project Set Up
 
