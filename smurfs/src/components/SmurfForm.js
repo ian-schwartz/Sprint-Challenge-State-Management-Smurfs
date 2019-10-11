@@ -40,7 +40,7 @@ onSubmit = e => {
               <h1>Enter Smurf Village</h1>
               <form onSubmit={this.onSubmit}>
                   <input
-                    className="name-input"
+                    className="input"
                     placeholder="name"
                     type="text"
                     value={this.state.name}
@@ -48,7 +48,7 @@ onSubmit = e => {
                     onChange={this.handleChanges}
                     / >
                     <input
-                    className="age-input"
+                    className="input"
                     placeholder="age"
                     type="text"
                     value={this.state.age}
@@ -56,7 +56,7 @@ onSubmit = e => {
                     onChange={this.handleChanges}
                     / >
                     <input
-                    className="height-input"
+                    className="input"
                     placeholder="height in cm"
                     type="text"
                     value={this.state.height}

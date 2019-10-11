@@ -8,7 +8,7 @@ const SmurfCard = () => {
     return (
         <div>
             {smurf.map(blue => (
-                <div>
+                <div className="smurf-card">
                     <p>{blue.name}</p>
                     <p>{blue.age}</p>
                     <p>{blue.height}</p>
