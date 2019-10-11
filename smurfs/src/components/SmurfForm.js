@@ -50,7 +50,7 @@ onSubmit = e => {
                     <input
                     className="age-input"
                     placeholder="age"
-                    type="number"
+                    type="text"
                     value={this.state.age}
                     name="age"
                     onChange={this.handleChanges}
@@ -68,5 +68,5 @@ onSubmit = e => {
           </div>
       )
   }
-}
+};
 
