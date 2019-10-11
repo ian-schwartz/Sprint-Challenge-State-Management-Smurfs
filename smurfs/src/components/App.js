@@ -5,6 +5,7 @@ import "./App.css";
 
 import { SmurfContext } from "./contexts/SmurfContext";
 import SmurfCard from "./SmurfCard";
+import SmurfForm from "./SmurfForm";
 
 function App() {
   const [smurf, setSmurf] = useState([])
@@ -27,6 +28,7 @@ function App() {
       <div className="App">
         <h1>SMURFS!</h1>
         <SmurfCard />
+        <SmurfForm />
       </div>
     </SmurfContext.Provider>
   );

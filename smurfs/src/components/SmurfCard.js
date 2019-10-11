@@ -7,11 +7,11 @@ const SmurfCard = () => {
 
     return (
         <div>
-            {smurf.map(smu => (
+            {smurf.map(blue => (
                 <div>
-                    <p>{smu.name}</p>
-                    <p>{smu.age}</p>
-                    <p>{smu.height}</p>
+                    <p>{blue.name}</p>
+                    <p>{blue.age}</p>
+                    <p>{blue.height}</p>
                 </div>
             ))}
         </div>
